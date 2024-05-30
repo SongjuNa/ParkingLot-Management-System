@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            app:srcCompat="@drawable/gachon_logo2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가천대학교 주차관리 시스템"
+            android:layout_marginTop="20dp"
+            android:textColor="#4F599F"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/InfoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 차량정보"
+            android:layout_marginTop="300dp"/>
+
+        <Button
+            android:id="@+id/LocBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 차량위치"
+            android:layout_marginTop="300dp"/>
+
+        <Button
+            android:id="@+id/MemberBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일반 주차공간 조회"
+            android:layout_marginTop="300dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/NonmemberBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비회원 주차공간 조회"
+            android:layout_marginTop="400dp"/>
+
+        <Button
+            android:id="@+id/CertifyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주차 인증하기"
+            android:layout_marginTop="400dp"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    
+</RelativeLayout>
+
+    <!--회원 로그인 후 첫 화면-->
+    <!--내 차량 정보, 내 차량 위치, 일반 주차공간, 비회원 주차공간, 주차 인증,
+    메뉴바 추가-> 홈,설정, 로그아웃/ 마이페이지-->
